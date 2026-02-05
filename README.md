@@ -1,3 +1,3 @@
 # linkedin-intro-to-building-gen-ai-java-apps-using-langchain4j
 
-Code from LinkedIn Course: Introduction to Building Generative AI Java Applications Using LangChain4J (taken in Feb. 2026)
+Code written for LinkedIn course: Introduction to Building Generative AI Java Applications Using LangChain4J (taken in Feb. 2026)
