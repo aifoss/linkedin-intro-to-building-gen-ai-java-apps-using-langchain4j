@@ -1,4 +1,4 @@
-package chapter5;
+package org.aifoss.genai.llm.langchain4j.basic.chapter5;
 
 import dev.langchain4j.data.message.ChatMessage;
 import dev.langchain4j.data.message.SystemMessage;
@@ -7,8 +7,8 @@ import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.chat.response.ChatResponse;
 import dev.langchain4j.model.input.Prompt;
 import dev.langchain4j.model.input.PromptTemplate;
-import util.LLMType;
-import util.LLMUtil;
+import org.aifoss.genai.llm.langchain4j.basic.util.LLMType;
+import org.aifoss.genai.llm.langchain4j.basic.util.LLMUtil;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -19,6 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
+ * Sofia
  * 2026-02-04
  */
 public class TextSummarizer {

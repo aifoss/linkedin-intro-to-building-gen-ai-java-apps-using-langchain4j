@@ -1,4 +1,4 @@
-package util;
+package org.aifoss.genai.llm.langchain4j.basic.util;
 
 import dev.langchain4j.data.message.ChatMessage;
 import dev.langchain4j.model.anthropic.AnthropicChatModel;
@@ -10,15 +10,16 @@ import java.time.Duration;
 import java.util.List;
 import java.util.Scanner;
 
-import static util.Constants.ANTHROPIC_API_KEY_ENV_VAR_KEY;
-import static util.Constants.ANTHROPIC_CHAT_MODEL_NAME;
-import static util.Constants.DEFAULT_TEMPERATURE;
-import static util.Constants.DEFAULT_TIMEOUT_SECS;
-import static util.Constants.DEFAULT_TOKENS;
-import static util.Constants.OPEN_AI_API_KEY_ENV_VAR_KEY;
-import static util.Constants.OPEN_AI_CHAT_MODEL_NAME;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.ANTHROPIC_API_KEY_ENV_VAR_KEY;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.ANTHROPIC_CHAT_MODEL_NAME;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.DEFAULT_TEMPERATURE;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.DEFAULT_TIMEOUT_SECS;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.DEFAULT_TOKENS;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.OPEN_AI_API_KEY_ENV_VAR_KEY;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.OPEN_AI_CHAT_MODEL_NAME;
 
 /**
+ * Sofia
  * 2026-02-04
  */
 public class LLMUtil {

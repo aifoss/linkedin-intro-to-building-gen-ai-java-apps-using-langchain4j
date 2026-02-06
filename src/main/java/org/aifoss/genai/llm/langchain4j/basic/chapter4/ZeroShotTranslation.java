@@ -1,4 +1,4 @@
-package chapter4;
+package org.aifoss.genai.llm.langchain4j.basic.chapter4;
 
 import dev.langchain4j.data.message.ChatMessage;
 import dev.langchain4j.data.message.UserMessage;
@@ -10,13 +10,14 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
-import static util.Constants.DEFAULT_TEMPERATURE;
-import static util.Constants.DEFAULT_TIMEOUT_SECS;
-import static util.Constants.DEFAULT_TOKENS;
-import static util.Constants.OPEN_AI_API_KEY_ENV_VAR_KEY;
-import static util.Constants.OPEN_AI_CHAT_MODEL_NAME;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.DEFAULT_TEMPERATURE;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.DEFAULT_TIMEOUT_SECS;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.DEFAULT_TOKENS;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.OPEN_AI_API_KEY_ENV_VAR_KEY;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.OPEN_AI_CHAT_MODEL_NAME;
 
 /**
+ * Sofia
  * 2026-02-04
  */
 public class ZeroShotTranslation {

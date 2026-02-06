@@ -1,4 +1,4 @@
-package chapter3;
+package org.aifoss.genai.llm.langchain4j.basic.chapter3;
 
 import dev.langchain4j.data.message.ChatMessage;
 import dev.langchain4j.data.message.SystemMessage;
@@ -12,16 +12,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static util.Constants.CHATBOT_STOPWORD;
-import static util.Constants.DEFAULT_TEMPERATURE;
-import static util.Constants.DEFAULT_TIMEOUT_SECS;
-import static util.Constants.DEFAULT_TOKENS;
-import static util.Constants.INSTRUCTION_PROMPT;
-import static util.Constants.OPEN_AI_API_KEY_ENV_VAR_KEY;
-import static util.Constants.OPEN_AI_CHAT_MODEL_NAME;
-import static util.Constants.QUESTION_PROMPT;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.CHATBOT_STOPWORD;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.DEFAULT_TEMPERATURE;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.DEFAULT_TIMEOUT_SECS;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.DEFAULT_TOKENS;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.INSTRUCTION_PROMPT;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.OPEN_AI_API_KEY_ENV_VAR_KEY;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.OPEN_AI_CHAT_MODEL_NAME;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.QUESTION_PROMPT;
 
 /**
+ * Sofia
  * 2026-02-04
  */
 public class ChatbotWithDynamicInstructions {

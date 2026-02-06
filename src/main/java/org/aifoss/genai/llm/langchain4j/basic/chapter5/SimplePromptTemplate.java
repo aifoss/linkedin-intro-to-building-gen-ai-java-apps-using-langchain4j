@@ -1,17 +1,18 @@
-package chapter5;
+package org.aifoss.genai.llm.langchain4j.basic.chapter5;
 
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.input.Prompt;
 import dev.langchain4j.model.input.PromptTemplate;
-import util.LLMType;
-import util.LLMUtil;
+import org.aifoss.genai.llm.langchain4j.basic.util.LLMType;
+import org.aifoss.genai.llm.langchain4j.basic.util.LLMUtil;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import static util.Constants.PROMPT;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.PROMPT;
 
 /**
+ * Sofia
  * 2026-02-04
  */
 public class SimplePromptTemplate {

@@ -1,4 +1,4 @@
-package chapter2;
+package org.aifoss.genai.llm.langchain4j.basic.chapter2;
 
 import dev.langchain4j.data.message.ChatMessage;
 import dev.langchain4j.data.message.UserMessage;
@@ -8,12 +8,13 @@ import dev.langchain4j.model.openai.OpenAiChatModel;
 
 import java.util.Scanner;
 
-import static util.Constants.CHATBOT_STOPWORD;
-import static util.Constants.OPEN_AI_API_KEY_ENV_VAR_KEY;
-import static util.Constants.OPEN_AI_CHAT_MODEL_NAME;
-import static util.Constants.PROMPT;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.CHATBOT_STOPWORD;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.OPEN_AI_API_KEY_ENV_VAR_KEY;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.OPEN_AI_CHAT_MODEL_NAME;
+import static org.aifoss.genai.llm.langchain4j.basic.util.Constants.PROMPT;
 
 /**
+ * Sofia
  * 2026-02-03
  */
 public class SimpleChatbot {

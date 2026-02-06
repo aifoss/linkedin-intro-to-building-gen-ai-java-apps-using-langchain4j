@@ -1,6 +1,7 @@
-package util;
+package org.aifoss.genai.llm.langchain4j.basic.util;
 
 /**
+ * Sofia
  * 2026-02-03
  */
 public class Constants {

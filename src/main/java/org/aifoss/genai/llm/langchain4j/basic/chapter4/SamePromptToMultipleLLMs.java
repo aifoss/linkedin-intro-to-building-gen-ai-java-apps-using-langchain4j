@@ -1,17 +1,18 @@
-package chapter4;
+package org.aifoss.genai.llm.langchain4j.basic.chapter4;
 
 import dev.langchain4j.data.message.ChatMessage;
 import dev.langchain4j.data.message.SystemMessage;
 import dev.langchain4j.data.message.UserMessage;
 import dev.langchain4j.model.chat.ChatModel;
 import dev.langchain4j.model.chat.response.ChatResponse;
-import util.LLMType;
-import util.LLMUtil;
+import org.aifoss.genai.llm.langchain4j.basic.util.LLMType;
+import org.aifoss.genai.llm.langchain4j.basic.util.LLMUtil;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Sofia
  * 2026-02-04
  */
 public class SamePromptToMultipleLLMs {
